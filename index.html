@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="weather-news.png">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather</h1>
+        <form action="#">
+            <input id="city-name" type="text" placeholder="Enter your city name" autocomplete="off">
+            <input type="submit" value="Get Weather">
+        </form>
+        <div class="weather-data">
+            <div class="icon"></div>
+            <div class="temp"></div>
+            <div class="desc"></div>
+            <div class="date-time"></div>
+            <div class="details">
+                <div class="detail-item">
+                    <h4>Feels Like</h4>
+                    <p id="feels-like"></p>
+                </div>
+                <div class="detail-item">
+                    <h4>Humidity</h4>
+                    <p id="humidity"></p>
+                </div>
+                <div class="detail-item">
+                    <h4>Wind Speed</h4>
+                    <p id="wind-speed"></p>
+                </div>
+                <div class="detail-item">
+                    <h4>Coordinates</h4>
+                    <p id="coordinates"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
